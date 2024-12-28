@@ -1,7 +1,7 @@
 ## Introduction
 
 It is now possible to collect a large amount of data about personal
-movement using activity monitoring devices such as a
+movement using activity monitoring devices such as a update
 [Fitbit](http://www.fitbit.com), [Nike
 Fuelband](http://www.nike.com/us/en_us/c/nikeplus-fuelband), or
 [Jawbone Up](https://jawbone.com/up). These type of devices are part of
