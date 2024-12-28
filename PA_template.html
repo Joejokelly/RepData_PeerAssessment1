@@ -11,8 +11,9 @@
 
 <meta name="author" content="Joe Okelly" />
 
+<meta name="date" content="2024-12-27" />
 
-<title>Reproducible Research - Project</title>
+<title>Reproducible Research Project</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -349,9 +350,9 @@ display: none;
 
 
 
-<h1 class="title toc-ignore">Reproducible Research - Project</h1>
+<h1 class="title toc-ignore">Reproducible Research Project</h1>
 <h4 class="author">Joe Okelly</h4>
-<h4 class="date">Dec 27, 2024</h4>
+<h4 class="date">December 27, 2024</h4>
 
 </div>
 
@@ -415,7 +416,7 @@ the analysis</li>
 good &lt;- complete.cases(activity)
 good_activity &lt;- activity[good,]
 
-# Load libraries used, may install respective packages first
+# Load libraries and respective packages used
 # install.packages(&quot;plyr&quot;)
 library(plyr)
 # install.packages(&quot;dplyr&quot;)
@@ -443,6 +444,7 @@ library(timeDate)</code></pre>
 <li>Calculate the total number of steps taken per day</li>
 </ol>
 <pre class="r"><code># need dplyr
+
 by_day &lt;- group_by(good_activity, date)
 steps_by_day &lt;- summarise(by_day, total_steps_daily = sum(steps))
 steps_by_day</code></pre>
